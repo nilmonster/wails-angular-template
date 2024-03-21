@@ -2,10 +2,8 @@
   "$schema": "https://wails.io/schemas/config.v2.json",
   "name": "{{.ProjectName}}",
   "outputfilename": "{{.BinaryName}}",
-  "frontend:build": "npx ng build",
   "frontend:install": "npm install",
-  "frontend:dev:watcher": "npx ng serve",
-  "frontend:dev:serverUrl": "http://localhost:4200",
+  "frontend:build": "npm run build",
   "author": {
     "name": "{{.AuthorName}}",
     "email": "{{.AuthorEmail}}"
